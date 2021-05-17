@@ -1,0 +1,14 @@
+# apiVersion: v1
+# kind: PersistentVolumeClaim
+# metadata:
+#   name: pvc-efk
+#   namespace: logging
+# spec:
+#   storageClassName: local-storage
+#   accessModes:
+#     - ReadWriteOnce
+#   resources:
+#     requests:
+#       storage: 3Gi
+
+
